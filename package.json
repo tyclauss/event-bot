@@ -12,10 +12,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "ajv": "^5.5.2",
     "botfuel-dialog": "^11.0.0",
     "botfuel-module-facetedsearch": "^3.1.0",
     "lodash": "^4.17.5",
     "logtown-winston": "^1.0.0",
+    "ngrok": "^3.1.1",
     "winston": "^2.4.1"
   },
   "devDependencies": {

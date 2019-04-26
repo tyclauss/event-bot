@@ -16,6 +16,12 @@ EventSearchDialog.params = {
     link_url_1: {
       dim: 'link_url_1',
     },
+    event_date_time: {
+      dim: 'event_date_time',
+    },
+    location: {
+      dim: 'location',
+    },
   },
 };
 

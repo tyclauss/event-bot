@@ -2,24 +2,16 @@ const { PlainFacetDb } = require('botfuel-module-facetedsearch');
 
 const data = require('./data');
 
-const colorMap = {
-  FF0000: 'Red',
-  FFFFFF: 'White',
-};
 
 const metaData = {
   filter: PlainFacetDb.DEFAULTFILTER({
-    type: PlainFacetDb.EQUAL,
-    brand: PlainFacetDb.EQUAL,
-    color: (value, param) =>
-      param &&
-      colorMap[value] &&
-      colorMap[value].toLowerCase() === param.toLowerCase(),
-    size: PlainFacetDb.IN,
-    sleeve: PlainFacetDb.EQUAL,
-    form: PlainFacetDb.EQUAL,
+    type_name: PlainFacetDb.EQUAL,
+    event_name: PlainFacetDb.EQUAL,
+    link_url_1: PlainFacetDb.EQUAL,
+    event_date_time: PlainFacetDb.EQUAL,
+    location: PlainFacetDb.EQUAL,
   }),
-  done: hits => hits && hits.length <= 2,
+  done: hits => hits && hits.length <= 1,
 };
 
 const ArticleDb = new PlainFacetDb(data, metaData);
