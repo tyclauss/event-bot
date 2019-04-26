@@ -1,3 +1,15 @@
+# MIS CAPSTONE README
+
+The following bot was designed using Botfuel's faceted search framework which allows users to search a database via questions that are centered around specific 'facets' of the entities in the database. 
+
+In the case of the event bot those facets are the category of the event and then the specific name of the event. 
+
+In the current state the bot responds to questions about what events are happening and then provides details for each event once the user has expressed which event they are interested in.
+
+Future abilities would include specifying specific time periods and filtering by interpretting services.
+
+# Botfuel README
+
 # Sample bot used in the [FacetedSearch module](https://docs.botfuel.io/dialog/modules/faceted-search)
 
 This sample bot is used in the [**FacetedSearch demo**](https://docs.botfuel.io/platform/demos/faceted-search).
