@@ -58,3 +58,4 @@ Try typing `Hello` and `I want to buy a polo`
 ## License
 
 See the [**License**](LICENSE.md) file.
+# event-bot
