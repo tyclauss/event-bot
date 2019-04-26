@@ -8,6 +8,8 @@ In the current state the bot responds to questions about what events are happeni
 
 Future abilities would include specifying specific time periods and filtering by interpretting services.
 
+Python scripts have been added in /src/corpora/ & /src/dbs/ in order to consume the APIs set up to provide access to our Oracle APEX database. 
+
 # Botfuel README
 
 # Sample bot used in the [FacetedSearch module](https://docs.botfuel.io/dialog/modules/faceted-search)
